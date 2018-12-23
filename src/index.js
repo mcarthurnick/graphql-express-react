@@ -9,11 +9,11 @@ import client from './apollo';
 
 
 ReactDOM.render(
-    <ApolloProvider clent={client}>
+    <ApolloProvider client={client}>
         <App />
     </ApolloProvider>,
-    document.getElementById('root')
-);
+        document.getElementById('root')
+    );
 
 serviceWorker.unregister();
 
